@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=DotGothic16&family=Pixelify+Sans&display=swap');
+
+:root{
+    font-family: 'dotgothic16';
+    --primary-color: #2e2e2e;
+    --secondary-color: #1b1b1b;
+    --third-color: #080808;
+    --fourth-color: #AB9CB8;
+    --bg-first: #551a8b;
+    --bg-second: #aa8cc5;
+    --bg-third: #7547a2;
+    --bg-orgn1: #e96c28;
+    --bg-orgn2: #ea9828;
+    --bg-orgn3: #fcba21;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    background-color: var(--bg-orgn3);
+}
+
+body {
+    background-color: var(--bg-orgn1);
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    background-color: var(--bg-orgn2);
+    min-height: 100vh;
+}
